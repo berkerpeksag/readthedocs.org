@@ -67,6 +67,9 @@ recommonmark==0.1.1
 Distutils2==1.0a3
 packaging==16.8
 
+# See https://github.com/pypa/packaging/issues/91
+pyparsing>=2.0.2
+
 # Commenting stuff
 git+https://github.com/zestedesavoir/django-cors-middleware.git@def9dc2f5e81eed53831bcda79ad1c127ecb3fe2
 nilsimsa==0.3.7
